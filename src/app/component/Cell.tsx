@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React, { FC, MouseEventHandler } from "react";
+import React, { FC} from "react";
 
 type Tprops = {
   children?: React.ReactNode;
