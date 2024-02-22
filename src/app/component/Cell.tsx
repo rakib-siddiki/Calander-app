@@ -20,7 +20,7 @@ const Cell: FC<Tprops> = ({
       className={clsx(
         "flex items-center justify-center h-10 border-r border-b p-3 border-gray-400 text-gray-100",
         {"hover:bg-gray-700 duration-300 cursor-pointer":!!handleClick},
-        { "bg-blue-500 text-white": isCurrentDate },
+        { "bg-blue-500 text-white  ": isCurrentDate },
         className
       )}
     >
